@@ -13,7 +13,7 @@ function(input, output, server) {
       "What this app lacks in beauty, it makes up for in speed and modularity."
     ))
 
-    data <- data.table::fread('data/ships.csv')
+    data <- data.table::setDT(read_feather('data/ships.feather'))
     setkey(data, 'ship_type')
     setkey(data, 'SHIPNAME')
 

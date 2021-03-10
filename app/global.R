@@ -1,6 +1,7 @@
 library(shiny)
 library(shiny.semantic)
 library(DT)
+library(feather)
 library(geosphere)
 library(leaflet)
 library(data.table)

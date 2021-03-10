@@ -1,2 +1,5 @@
+apps/data/ships.feather
 *.csv
 *.DS_Store
+*.feather
+rsconnect/
